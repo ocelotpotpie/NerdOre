@@ -3,15 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nu.nerd</groupId>
 	<name>NerdOre</name>
-	<artifactId>${project.name}</artifactId>
+	<artifactId>NerdOre</artifactId>
 	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<description>NerdOre is a Bukkit plugin that replaces blocks and generates ores.</description>
 	<url>https://github.com/NerdNu/${project.name}</url>
 	<scm>
-		<connection>scm:git:git://github.com/NerdNu/${project.name}.git</connection>
-		<url>https://github.com/NerdNu/${project.name}</url>
-		<developerConnection>scm:git:git://github.com/NerdNu/${project.name}.git</developerConnection>
+		<connection>scm:git:git://github.com/NerdNu/NerdOre.git</connection>
+		<url>https://github.com/NerdNu/NerdOre</url>
+		<developerConnection>scm:git:git://github.com/NerdNu/NerdOre.git</developerConnection>
 	</scm>
 
 	<properties>
@@ -25,9 +25,9 @@
 	</repositories>
 	<dependencies>
 		<dependency>
-			<groupId>org.bukkit</groupId>
-			<artifactId>bukkit</artifactId>
-			<version>1.13.1-R0.1-SNAPSHOT</version>
+			<groupId>org.spigotmc</groupId>
+			<artifactId>spigot-api</artifactId>
+			<version>1.17.1-R0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -62,8 +62,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>2.0.2</version>
 					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
+						<source>16</source>
+						<target>16</target>
 					</configuration>
 				</plugin>
 			</plugins>
